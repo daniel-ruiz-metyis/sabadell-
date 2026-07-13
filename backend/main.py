@@ -4,13 +4,19 @@ Banco Sabadell Operations Dashboard - MVP backend.
 Deliberately simple: every dataset is a CSV file in ./data. The API reads those
 CSVs and returns them as JSON. Datasets can be downloaded (to edit in Excel) and
 re-uploaded to change what the dashboard shows. No database, no ORM.
+
+On Vercel the deployment bundle is read-only, so uploads write to a separate
+writable overlay directory (OS temp dir) instead of DATA_DIR. Reads check the
+overlay first, falling back to the bundled CSV. Locally (no VERCEL env var)
+the overlay and DATA_DIR are the same folder, so uploads persist normally.
 """
 
 import csv
 import io
+import os
+import tempfile
 import zipfile
 from pathlib import Path
-
 from typing import Optional
 
 from fastapi import FastAPI, HTTPException, UploadFile, File
@@ -18,6 +24,12 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import Response, JSONResponse
 
 DATA_DIR = Path(__file__).parent / "data"
+
+if os.environ.get("VERCEL"):
+    WRITABLE_DIR = Path(tempfile.gettempdir()) / "sabadell-dashboard-data"
+    WRITABLE_DIR.mkdir(parents=True, exist_ok=True)
+else:
+    WRITABLE_DIR = DATA_DIR
 
 app = FastAPI(title="Banco Sabadell Operations Dashboard API")
 
@@ -30,14 +42,24 @@ app.add_middleware(
 )
 
 
-def _dataset_path(name: str) -> Path:
-    """Resolve a dataset name to a CSV path, refusing anything outside DATA_DIR."""
+def _validate_name(name: str) -> str:
     if not name.replace("_", "").isalnum():
         raise HTTPException(status_code=400, detail="Invalid dataset name")
-    path = (DATA_DIR / f"{name}.csv").resolve()
-    if DATA_DIR.resolve() not in path.parents:
-        raise HTTPException(status_code=400, detail="Invalid dataset name")
-    return path
+    return name
+
+
+def _read_path(name: str) -> Path:
+    """Overlay (previously uploaded) copy if present, else the bundled CSV."""
+    _validate_name(name)
+    overlay = WRITABLE_DIR / f"{name}.csv"
+    if overlay.exists():
+        return overlay
+    return DATA_DIR / f"{name}.csv"
+
+
+def _write_path(name: str) -> Path:
+    _validate_name(name)
+    return WRITABLE_DIR / f"{name}.csv"
 
 
 def _read_csv(path: Path) -> list[dict]:
@@ -47,12 +69,14 @@ def _read_csv(path: Path) -> list[dict]:
 
 @app.get("/api/datasets")
 def list_datasets() -> list[str]:
-    return sorted(p.stem for p in DATA_DIR.glob("*.csv"))
+    names = {p.stem for p in DATA_DIR.glob("*.csv")}
+    names |= {p.stem for p in WRITABLE_DIR.glob("*.csv")}
+    return sorted(names)
 
 
 @app.get("/api/data/{name}")
 def get_dataset(name: str, anio: Optional[str] = None, mes: Optional[str] = None):
-    path = _dataset_path(name)
+    path = _read_path(name)
     if not path.exists():
         raise HTTPException(status_code=404, detail=f"Dataset '{name}' not found")
     rows = _read_csv(path)
@@ -68,7 +92,7 @@ def get_dataset(name: str, anio: Optional[str] = None, mes: Optional[str] = None
 
 @app.get("/api/download/{name}")
 def download_dataset(name: str):
-    path = _dataset_path(name)
+    path = _read_path(name)
     if not path.exists():
         raise HTTPException(status_code=404, detail=f"Dataset '{name}' not found")
     return Response(
@@ -80,10 +104,12 @@ def download_dataset(name: str):
 
 @app.get("/api/download-all")
 def download_all():
+    names = {p.stem for p in DATA_DIR.glob("*.csv")}
+    names |= {p.stem for p in WRITABLE_DIR.glob("*.csv")}
     buffer = io.BytesIO()
     with zipfile.ZipFile(buffer, "w", zipfile.ZIP_DEFLATED) as zf:
-        for path in sorted(DATA_DIR.glob("*.csv")):
-            zf.write(path, arcname=path.name)
+        for name in sorted(names):
+            zf.write(_read_path(name), arcname=f"{name}.csv")
     return Response(
         content=buffer.getvalue(),
         media_type="application/zip",
@@ -93,7 +119,7 @@ def download_all():
 
 @app.post("/api/upload/{name}")
 async def upload_dataset(name: str, file: UploadFile = File(...)):
-    path = _dataset_path(name)
+    path = _write_path(name)
     raw = await file.read()
     text = raw.decode("utf-8-sig")
     # Validate it parses as CSV before overwriting the live dataset.
@@ -109,4 +135,8 @@ async def upload_dataset(name: str, file: UploadFile = File(...)):
 
 @app.get("/api/health")
 def health():
-    return {"status": "ok", "datasets": len(list(DATA_DIR.glob("*.csv")))}
+    return {
+        "status": "ok",
+        "datasets": len(list(DATA_DIR.glob("*.csv"))),
+        "writable_overlay": str(WRITABLE_DIR) if WRITABLE_DIR != DATA_DIR else None,
+    }
