@@ -1,0 +1,31 @@
+anio,mes,label,valor,pct,mom_dir
+2024,ENE,Total,5727,,down
+2024,ENE,Con otra tarjeta BS,3952,69,down
+2024,ENE,Con otra tarjeta BS mismo tipo,1775,31,up
+2024,ABR,Total,5744,,up
+2024,ABR,Con otra tarjeta BS,3963,69,up
+2024,ABR,Con otra tarjeta BS mismo tipo,1781,31,down
+2024,JUL,Total,6020,,up
+2024,JUL,Con otra tarjeta BS,4154,69,up
+2024,JUL,Con otra tarjeta BS mismo tipo,1866,31,down
+2024,OCT,Total,6215,,up
+2024,OCT,Con otra tarjeta BS,4288,69,up
+2024,OCT,Con otra tarjeta BS mismo tipo,1927,31,down
+2025,ENE,Total,5901,,down
+2025,ENE,Con otra tarjeta BS,4072,69,down
+2025,ENE,Con otra tarjeta BS mismo tipo,1829,31,up
+2025,ABR,Total,6779,,up
+2025,ABR,Con otra tarjeta BS,4678,69,up
+2025,ABR,Con otra tarjeta BS mismo tipo,2101,31,down
+2025,JUL,Total,7283,,up
+2025,JUL,Con otra tarjeta BS,5025,69,up
+2025,JUL,Con otra tarjeta BS mismo tipo,2258,31,down
+2025,OCT,Total,6633,,down
+2025,OCT,Con otra tarjeta BS,4577,69,down
+2025,OCT,Con otra tarjeta BS mismo tipo,2056,31,up
+2026,ENE,Total,7931,,up
+2026,ENE,Con otra tarjeta BS,5472,69,up
+2026,ENE,Con otra tarjeta BS mismo tipo,2459,31,down
+2026,ABR,Total,7681,,down
+2026,ABR,Con otra tarjeta BS,5300,69,down
+2026,ABR,Con otra tarjeta BS mismo tipo,2381,31,up

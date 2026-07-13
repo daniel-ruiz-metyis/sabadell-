@@ -1,0 +1,41 @@
+anio,mes,hito,momento,canales,enviados,entregados,apertura,clic
+2024,ENE,Bloqueo por inactividad,D-120,SMS / Push / Email,41612,40805,36,7
+2024,ENE,Inicio de renovacion,D-58,SMS / Push / Email,140635,138184,44,11
+2024,ENE,Aviso de envio,D-30,SMS / Push / Email,151810,149973,45,17
+2024,ENE,Recordatorios de activacion,D-25 / D-20 / D-17 / D-9,SMS / Push / Email,180704,176881,43,10
+2024,ABR,Bloqueo por inactividad,D-120,SMS / Push / Email,40622,39834,36,10
+2024,ABR,Inicio de renovacion,D-58,SMS / Push / Email,137288,134895,44,13
+2024,ABR,Aviso de envio,D-30,SMS / Push / Email,148197,146404,43,13
+2024,ABR,Recordatorios de activacion,D-25 / D-20 / D-17 / D-9,SMS / Push / Email,176403,172672,39,8
+2024,JUL,Bloqueo por inactividad,D-120,SMS / Push / Email,45995,45102,40,9
+2024,JUL,Inicio de renovacion,D-58,SMS / Push / Email,155445,152736,43,15
+2024,JUL,Aviso de envio,D-30,SMS / Push / Email,167797,165767,49,17
+2024,JUL,Recordatorios de activacion,D-25 / D-20 / D-17 / D-9,SMS / Push / Email,199734,195509,39,11
+2024,OCT,Bloqueo por inactividad,D-120,SMS / Push / Email,44465,43602,39,8
+2024,OCT,Inicio de renovacion,D-58,SMS / Push / Email,150275,147656,42,14
+2024,OCT,Aviso de envio,D-30,SMS / Push / Email,162215,160253,43,16
+2024,OCT,Recordatorios de activacion,D-25 / D-20 / D-17 / D-9,SMS / Push / Email,193090,189006,37,11
+2025,ENE,Bloqueo por inactividad,D-120,SMS / Push / Email,48329,47391,35,8
+2025,ENE,Inicio de renovacion,D-58,SMS / Push / Email,163334,160488,40,14
+2025,ENE,Aviso de envio,D-30,SMS / Push / Email,176313,174180,43,14
+2025,ENE,Recordatorios de activacion,D-25 / D-20 / D-17 / D-9,SMS / Push / Email,209871,205431,39,10
+2025,ABR,Bloqueo por inactividad,D-120,SMS / Push / Email,50386,49409,39,9
+2025,ABR,Inicio de renovacion,D-58,SMS / Push / Email,170287,167319,42,10
+2025,ABR,Aviso de envio,D-30,SMS / Push / Email,183818,181594,49,18
+2025,ABR,Recordatorios de activacion,D-25 / D-20 / D-17 / D-9,SMS / Push / Email,218804,214176,36,10
+2025,JUL,Bloqueo por inactividad,D-120,SMS / Push / Email,50227,49253,41,8
+2025,JUL,Inicio de renovacion,D-58,SMS / Push / Email,169750,166792,40,14
+2025,JUL,Aviso de envio,D-30,SMS / Push / Email,183238,181022,45,13
+2025,JUL,Recordatorios de activacion,D-25 / D-20 / D-17 / D-9,SMS / Push / Email,218114,213501,38,11
+2025,OCT,Bloqueo por inactividad,D-120,SMS / Push / Email,56256,55164,39,10
+2025,OCT,Inicio de renovacion,D-58,SMS / Push / Email,190124,186811,41,12
+2025,OCT,Aviso de envio,D-30,SMS / Push / Email,205232,202749,44,17
+2025,OCT,Recordatorios de activacion,D-25 / D-20 / D-17 / D-9,SMS / Push / Email,244294,239126,40,8
+2026,ENE,Bloqueo por inactividad,D-120,SMS / Push / Email,58446,57312,36,10
+2026,ENE,Inicio de renovacion,D-58,SMS / Push / Email,197525,194083,47,14
+2026,ENE,Aviso de envio,D-30,SMS / Push / Email,213220,210641,51,13
+2026,ENE,Recordatorios de activacion,D-25 / D-20 / D-17 / D-9,SMS / Push / Email,253803,248434,44,11
+2026,ABR,Bloqueo por inactividad,D-120,SMS / Push / Email,58240,57110,38,9
+2026,ABR,Inicio de renovacion,D-58,SMS / Push / Email,196830,193400,44,13
+2026,ABR,Aviso de envio,D-30,SMS / Push / Email,212470,209900,47,15
+2026,ABR,Recordatorios de activacion,D-25 / D-20 / D-17 / D-9,SMS / Push / Email,252910,247560,40,9

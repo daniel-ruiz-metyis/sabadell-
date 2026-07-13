@@ -1,0 +1,41 @@
+anio,mes,key,label,valor
+2024,ENE,enviadas,Comunicaciones enviadas (Ene-Abr),514761
+2024,ENE,apertura,Tasa de apertura media,38
+2024,ENE,ctr,Tasa de clic media (CTR),10
+2024,ENE,canal_top,Canal con mayor tasa de apertura,54
+2024,ABR,enviadas,Comunicaciones enviadas (Ene-Abr),502510
+2024,ABR,apertura,Tasa de apertura media,45
+2024,ABR,ctr,Tasa de clic media (CTR),12
+2024,ABR,canal_top,Canal con mayor tasa de apertura,58
+2024,JUL,enviadas,Comunicaciones enviadas (Ene-Abr),568970
+2024,JUL,apertura,Tasa de apertura media,43
+2024,JUL,ctr,Tasa de clic media (CTR),12
+2024,JUL,canal_top,Canal con mayor tasa de apertura,53
+2024,OCT,enviadas,Comunicaciones enviadas (Ene-Abr),550045
+2024,OCT,apertura,Tasa de apertura media,37
+2024,OCT,ctr,Tasa de clic media (CTR),14
+2024,OCT,canal_top,Canal con mayor tasa de apertura,57
+2025,ENE,enviadas,Comunicaciones enviadas (Ene-Abr),597847
+2025,ENE,apertura,Tasa de apertura media,42
+2025,ENE,ctr,Tasa de clic media (CTR),12
+2025,ENE,canal_top,Canal con mayor tasa de apertura,51
+2025,ABR,enviadas,Comunicaciones enviadas (Ene-Abr),623295
+2025,ABR,apertura,Tasa de apertura media,45
+2025,ABR,ctr,Tasa de clic media (CTR),13
+2025,ABR,canal_top,Canal con mayor tasa de apertura,51
+2025,JUL,enviadas,Comunicaciones enviadas (Ene-Abr),621330
+2025,JUL,apertura,Tasa de apertura media,39
+2025,JUL,ctr,Tasa de clic media (CTR),9
+2025,JUL,canal_top,Canal con mayor tasa de apertura,57
+2025,OCT,enviadas,Comunicaciones enviadas (Ene-Abr),695906
+2025,OCT,apertura,Tasa de apertura media,44
+2025,OCT,ctr,Tasa de clic media (CTR),11
+2025,OCT,canal_top,Canal con mayor tasa de apertura,55
+2026,ENE,enviadas,Comunicaciones enviadas (Ene-Abr),722993
+2026,ENE,apertura,Tasa de apertura media,37
+2026,ENE,ctr,Tasa de clic media (CTR),10
+2026,ENE,canal_top,Canal con mayor tasa de apertura,54
+2026,ABR,enviadas,Comunicaciones enviadas (Ene-Abr),720450
+2026,ABR,apertura,Tasa de apertura media,42
+2026,ABR,ctr,Tasa de clic media (CTR),11
+2026,ABR,canal_top,Canal con mayor tasa de apertura,54

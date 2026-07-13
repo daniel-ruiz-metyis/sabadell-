@@ -1,0 +1,171 @@
+anio,mes,codigo,territorio,valor
+2024,ENE,CT,Cataluna,1951
+2024,ENE,MD,Comunidad de Madrid,1206
+2024,ENE,VC,Comunidad Valenciana,774
+2024,ENE,AN,Andalucia,674
+2024,ENE,PV,Pais Vasco,399
+2024,ENE,GA,Galicia,262
+2024,ENE,CL,Castilla y Leon,161
+2024,ENE,CM,Castilla-La Mancha,130
+2024,ENE,AR,Aragon,108
+2024,ENE,CN,Canarias,111
+2024,ENE,MC,Region de Murcia,109
+2024,ENE,IB,Islas Baleares,88
+2024,ENE,AS,Asturias,71
+2024,ENE,EX,Extremadura,65
+2024,ENE,NC,Navarra,49
+2024,ENE,CB,Cantabria,49
+2024,ENE,RI,La Rioja,28
+2024,ABR,CT,Cataluna,2126
+2024,ABR,MD,Comunidad de Madrid,1177
+2024,ABR,VC,Comunidad Valenciana,867
+2024,ABR,AN,Andalucia,621
+2024,ABR,PV,Pais Vasco,368
+2024,ABR,GA,Galicia,233
+2024,ABR,CL,Castilla y Leon,153
+2024,ABR,CM,Castilla-La Mancha,124
+2024,ABR,AR,Aragon,111
+2024,ABR,CN,Canarias,114
+2024,ABR,MC,Region de Murcia,99
+2024,ABR,IB,Islas Baleares,88
+2024,ABR,AS,Asturias,67
+2024,ABR,EX,Extremadura,60
+2024,ABR,NC,Navarra,55
+2024,ABR,CB,Cantabria,44
+2024,ABR,RI,La Rioja,29
+2024,JUL,CT,Cataluna,2336
+2024,JUL,MD,Comunidad de Madrid,1346
+2024,JUL,VC,Comunidad Valenciana,795
+2024,JUL,AN,Andalucia,687
+2024,JUL,PV,Pais Vasco,429
+2024,JUL,GA,Galicia,248
+2024,JUL,CL,Castilla y Leon,165
+2024,JUL,CM,Castilla-La Mancha,148
+2024,JUL,AR,Aragon,117
+2024,JUL,CN,Canarias,110
+2024,JUL,MC,Region de Murcia,101
+2024,JUL,IB,Islas Baleares,101
+2024,JUL,AS,Asturias,75
+2024,JUL,EX,Extremadura,62
+2024,JUL,NC,Navarra,52
+2024,JUL,CB,Cantabria,51
+2024,JUL,RI,La Rioja,34
+2024,OCT,CT,Cataluna,2165
+2024,OCT,MD,Comunidad de Madrid,1500
+2024,OCT,VC,Comunidad Valenciana,926
+2024,OCT,AN,Andalucia,675
+2024,OCT,PV,Pais Vasco,455
+2024,OCT,GA,Galicia,272
+2024,OCT,CL,Castilla y Leon,172
+2024,OCT,CM,Castilla-La Mancha,148
+2024,OCT,AR,Aragon,127
+2024,OCT,CN,Canarias,121
+2024,OCT,MC,Region de Murcia,102
+2024,OCT,IB,Islas Baleares,106
+2024,OCT,AS,Asturias,72
+2024,OCT,EX,Extremadura,65
+2024,OCT,NC,Navarra,62
+2024,OCT,CB,Cantabria,48
+2024,OCT,RI,La Rioja,33
+2025,ENE,CT,Cataluna,2010
+2025,ENE,MD,Comunidad de Madrid,1386
+2025,ENE,VC,Comunidad Valenciana,868
+2025,ENE,AN,Andalucia,622
+2025,ENE,PV,Pais Vasco,408
+2025,ENE,GA,Galicia,262
+2025,ENE,CL,Castilla y Leon,158
+2025,ENE,CM,Castilla-La Mancha,137
+2025,ENE,AR,Aragon,125
+2025,ENE,CN,Canarias,118
+2025,ENE,MC,Region de Murcia,108
+2025,ENE,IB,Islas Baleares,90
+2025,ENE,AS,Asturias,66
+2025,ENE,EX,Extremadura,64
+2025,ENE,NC,Navarra,58
+2025,ENE,CB,Cantabria,43
+2025,ENE,RI,La Rioja,31
+2025,ABR,CT,Cataluna,2310
+2025,ABR,MD,Comunidad de Madrid,1408
+2025,ABR,VC,Comunidad Valenciana,1014
+2025,ABR,AN,Andalucia,758
+2025,ABR,PV,Pais Vasco,441
+2025,ABR,GA,Galicia,304
+2025,ABR,CL,Castilla y Leon,170
+2025,ABR,CM,Castilla-La Mancha,171
+2025,ABR,AR,Aragon,137
+2025,ABR,CN,Canarias,129
+2025,ABR,MC,Region de Murcia,126
+2025,ABR,IB,Islas Baleares,112
+2025,ABR,AS,Asturias,81
+2025,ABR,EX,Extremadura,71
+2025,ABR,NC,Navarra,67
+2025,ABR,CB,Cantabria,49
+2025,ABR,RI,La Rioja,33
+2025,JUL,CT,Cataluna,2944
+2025,JUL,MD,Comunidad de Madrid,1645
+2025,JUL,VC,Comunidad Valenciana,1036
+2025,JUL,AN,Andalucia,841
+2025,JUL,PV,Pais Vasco,555
+2025,JUL,GA,Galicia,300
+2025,JUL,CL,Castilla y Leon,198
+2025,JUL,CM,Castilla-La Mancha,164
+2025,JUL,AR,Aragon,148
+2025,JUL,CN,Canarias,128
+2025,JUL,MC,Region de Murcia,127
+2025,JUL,IB,Islas Baleares,107
+2025,JUL,AS,Asturias,84
+2025,JUL,EX,Extremadura,74
+2025,JUL,NC,Navarra,69
+2025,JUL,CB,Cantabria,55
+2025,JUL,RI,La Rioja,35
+2025,OCT,CT,Cataluna,2291
+2025,OCT,MD,Comunidad de Madrid,1380
+2025,OCT,VC,Comunidad Valenciana,892
+2025,OCT,AN,Andalucia,734
+2025,OCT,PV,Pais Vasco,479
+2025,OCT,GA,Galicia,270
+2025,OCT,CL,Castilla y Leon,189
+2025,OCT,CM,Castilla-La Mancha,170
+2025,OCT,AR,Aragon,150
+2025,OCT,CN,Canarias,140
+2025,OCT,MC,Region de Murcia,116
+2025,OCT,IB,Islas Baleares,110
+2025,OCT,AS,Asturias,81
+2025,OCT,EX,Extremadura,75
+2025,OCT,NC,Navarra,63
+2025,OCT,CB,Cantabria,54
+2025,OCT,RI,La Rioja,33
+2026,ENE,CT,Cataluna,2971
+2026,ENE,MD,Comunidad de Madrid,1792
+2026,ENE,VC,Comunidad Valenciana,1260
+2026,ENE,AN,Andalucia,920
+2026,ENE,PV,Pais Vasco,602
+2026,ENE,GA,Galicia,310
+2026,ENE,CL,Castilla y Leon,206
+2026,ENE,CM,Castilla-La Mancha,200
+2026,ENE,AR,Aragon,156
+2026,ENE,CN,Canarias,164
+2026,ENE,MC,Region de Murcia,140
+2026,ENE,IB,Islas Baleares,122
+2026,ENE,AS,Asturias,99
+2026,ENE,EX,Extremadura,89
+2026,ENE,NC,Navarra,65
+2026,ENE,CB,Cantabria,63
+2026,ENE,RI,La Rioja,42
+2026,ABR,CT,Cataluna,2890
+2026,ABR,MD,Comunidad de Madrid,1740
+2026,ABR,VC,Comunidad Valenciana,1120
+2026,ABR,AN,Andalucia,890
+2026,ABR,PV,Pais Vasco,540
+2026,ABR,GA,Galicia,320
+2026,ABR,CL,Castilla y Leon,210
+2026,ABR,CM,Castilla-La Mancha,180
+2026,ABR,AR,Aragon,160
+2026,ABR,CN,Canarias,150
+2026,ABR,MC,Region de Murcia,140
+2026,ABR,IB,Islas Baleares,120
+2026,ABR,AS,Asturias,90
+2026,ABR,EX,Extremadura,80
+2026,ABR,NC,Navarra,70
+2026,ABR,CB,Cantabria,60
+2026,ABR,RI,La Rioja,40
